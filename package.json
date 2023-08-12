@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.88.2"
+  },
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false
+  }
+}

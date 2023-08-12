@@ -1,0 +1,328 @@
+/* 
+header
+------ 
+*/
+body{
+   overflow-x: hidden;
+}
+.nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-align: center;
+   padding-left: 10rem;
+   padding-right: 10rem;
+   z-index: 99;
+   top: 0;
+   left: 0;
+}
+
+.fontSize{
+   font-size: 2rem;
+}
+
+.nav .logo {
+   width: 80px;
+   text-decoration: none;
+   display: inline-block;
+}
+
+.nav .logo i {
+   font-size: 2.5rem;
+}
+
+.nav .logo span {
+   font-size: 1.8rem;
+   font-weight: 600;
+   opacity: 0.7;
+   color: black;
+   padding-left: 5px;
+}
+
+.ant-layout-header {
+   background-color: white;
+   padding: 0;
+}
+
+.nav .desktop-nav {
+   font-size: 2rem;
+}
+
+.ant-anchor {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.ant-anchor a {
+   font-size: 1.3rem;
+   font-weight: 600;
+   opacity: 0.8;
+}
+
+.ant-anchor-ink::before {
+   display: none;
+}
+
+.ant-carousel .hero-item {
+   height: 600px;
+   display: flex !important;
+   justify-content: center;
+   flex-direction: column;
+   padding: 10px 20px;
+}
+
+.ant-carousel .fa {
+   padding-right: 5px;
+}
+
+.ant-carousel .hero-item-one {
+   background: url("./components/images/bg-hero.png");
+   background-position: 50% 50%;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.ant-carousel .hero-item-two {
+   background-image: linear-gradient(
+         to left,
+         rgba(0, 0, 0, 0.4),
+         rgba(0, 0, 0, 0.4)
+      ),
+      url("./components/images/bg-works.jpg");
+   background-position: top bottom;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.ant-carousel .hero-item h2 {
+   font-weight: 700;
+}
+
+.ant-carousel .hero-item p {
+   width: 450px;
+}
+
+.ant-carousel .hero-item-two h2 {
+   color: white;
+}
+
+.ant-carousel .hero-item-two p {
+   color: white;
+}
+
+@media (min-width: 1000px) {
+   .mobile-nav {
+      display: none;
+   }
+
+   .desktop-nav {
+      display: block;
+   }
+}
+
+@media (max-width: 999px) {
+   .nav {
+      padding: 0 50px;
+   }
+
+   .ant-anchor {
+      flex-direction: column;
+   }
+
+   .desktop-nav {
+      display: none;
+   }
+
+   .mobile-nav {
+      display: block;
+      justify-self: flex-end;
+      text-align: right;
+   }
+}
+
+@media (max-width: 490px) {
+   .ant-carousel .hero-item p {
+      width: 95%;
+   }
+}
+
+/* ABOUT STYLING */
+.about {
+   padding: 10px;
+   width: 100%;
+   margin-top: 30px;
+}
+
+.about-body {
+   margin-top: 30px;
+}
+
+.about-body-cards {
+   margin-top: 50px;
+}
+
+.about-body-cards .fa {
+   color: #1890ff;
+   font-size: 4rem;
+}
+
+/* FEATURES STYLING */
+.features {
+   padding: 10px;
+   width: 100%;
+   margin-top: 30px;
+}
+
+.features-body-cards {
+   margin: auto;
+   margin-top: 30px;
+   width: 95%;
+}
+
+/* HOW IT WORKS STYLING */
+.hiw {
+   padding: 80px 10px;
+   width: 100%;
+   margin-top: 30px;
+   background-image: linear-gradient(
+         to left,
+         rgba(0, 0, 0, 0.6),
+         rgba(0, 0, 0, 0.6)
+      ),
+      url("./components/images/bg-hero.png");
+   background-position: top bottom;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: white;
+}
+
+.hiw-header h2 {
+   color: white;
+}
+
+.hiw-body {
+   margin-top: 30px;
+   color: white;
+}
+
+.hiw-body .fa {
+   font-size: 8rem;
+}
+
+/* FAQ STYLING */
+.faq {
+   padding: 10px;
+   width: 100%;
+   margin-top: 30px;
+}
+
+.faq-body {
+   margin-top: 30px;
+}
+
+.faq-body .ant-collapse-header {
+   font-size: 1.8rem;
+}
+
+.faq-footer {
+   margin-top: 30px;
+}
+
+.faq-footer .fa {
+   margin-right: 6px;
+}
+
+/* PRICING STYLING */
+.pricing {
+   padding: 50px 10px;
+   background-color: rgb(241, 238, 238);
+   width: 100%;
+   margin-top: 30px;
+}
+
+.pricing-body {
+   margin-top: 30px;
+}
+
+.pricing-body .gutter-row:not(:last-child) {
+   margin-bottom: 20px;
+}
+
+.pricing-body .ant-card-head-title {
+   font-size: 2.5rem;
+   opacity: 0.7;
+}
+
+.pricing-body .price {
+   font-size: 2.3rem;
+   opacity: 0.7;
+}
+
+.pricing-body ul {
+   list-style: none;
+   opacity: 0.7;
+}
+
+.pricing-body ul li {
+   padding: 6px 5px;
+   font-size: 1.6rem;
+   font-weight: 600;
+}
+
+.pricing-body .fa {
+   margin-right: 6px;
+}
+
+/* CONTACT STYLING */
+.contact {
+   padding: 10px;
+   width: 100%;
+   margin-top: 30px;
+}
+
+.contact-body {
+   margin-top: 30px;
+}
+
+/* FOOTER STYLING */
+.footer {
+   margin-top: 30px;
+   padding: 40px 10px;
+   background-color: black;
+}
+
+.footer-links a {
+   display: inline-block;
+   color: white;
+   font-size: 2rem;
+   width: 40px;
+}
+
+.footer-links a:hover {
+   opacity: 0.8;
+}
+
+/* UTILITIES */
+.sub-header {
+   width: 100%;
+   font-size: 3rem;
+}
+
+.no-gutter {
+   margin: 0;
+}
+
+.text-center {
+   text-align: center;
+}
+
+.border-bottom {
+   display: inline-block;
+   width: 60px;
+   border: 2px solid #1890ff;
+}
+
+.logotwo{
+   width: 2.5rem;
+   height: 2.5rem;
+}
