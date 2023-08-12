@@ -1,7 +1,7 @@
 import React,{useRef} from 'react';
 import { Row, Col, Form, Input, Button, Checkbox } from "antd";
 
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 // import dotenv from 'dotenv'
 
 function Contact() {
