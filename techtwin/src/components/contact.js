@@ -11,16 +11,7 @@ function Contact() {
     const form = useRef();
     console.log(serviceID)
   
-    const sendEmail = (e) => {
-      e.preventDefault();
-  
-      emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
-        .then((result) => {
-            console.log(result.text);
-        }, (error) => {
-            console.log(error.text);
-        });
-    };
+
   return (
     <section className="contact" id="contact">
       <header className="contact-header text-center">
@@ -31,7 +22,7 @@ function Contact() {
       <div className="contact-body">
         <Row justify="center">
           <Col xs={20} sm={15} md={12} lg={11} xl={10}>
-            <Form name="contact" onSubmit={sendEmail}>
+            <Form name="contact" onSubmit={""}>
               <Form.Item
                 name={['name']}
                 rules={[{ required: true }]}>
