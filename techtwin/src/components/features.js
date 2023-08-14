@@ -23,54 +23,63 @@ function Features() {
         <Row justify="center" gutter={[20, 30]}>
           <Col md={8} lg={7} xl={8}>
             <Card
+              className="testimonial-card"              
               hoverable
-              cover={<img alt="Modern Design"  src={modern}
-                style={{ height: '200px', objectFit: "cover", width: '100%' }} />}
+              cover={<img classname="cardImage" alt="Modern Design"  src={modern}
+                 />}
             >
-              <Meta title="Modern Design" />
+              <Meta className="card-title" title="Modern Design" />
             </Card>
           </Col>
           <Col md={8} lg={7} xl={8}>
             <Card
+              className="testimonial-card"    
               hoverable
-              cover={<img alt="Clean And Elegant" src={cleanDesign} style={{ height: '200px', objectFit: "cover", width: '100%' }} />}
+              cover={<img classname="cardImage" alt="Clean And Elegant" src={cleanDesign}   />}
             >
-              <Meta title="Clean and Elegant" />
+              <Meta className="card-title" title="Clean and Elegant" />
             </Card>
           </Col>
           <Col md={8} lg={7} xl={8}>
             <Card
+              className="testimonial-card"
               hoverable
-              cover={<img alt="Creative Design" src={creative }
-                style={{ height: '200px', objectFit: "cover", width: '100%' }} />}
+              cover={<img classname="cardImage" alt="Creative Design" src={creative }
+                 />}
             >
-              <Meta title="Creatvive Design" />
+              <Meta className="card-title"   title="Creatvive Design" />
+            </Card>
+          </Col>
+
+
+
+
+          <Col md={8} lg={7} xl={8}>
+            <Card
+              className="testimonial-card"
+              hoverable
+              cover={<img classname="cardImage" alt="Easy to Customize" src={easy}
+                 />}
+            >
+              <Meta className="card-title" title="Easy to Customize" />
             </Card>
           </Col>
           <Col md={8} lg={7} xl={8}>
             <Card
-              hoverable
-              cover={<img alt="Easy to Customize" src={easy}
-                style={{ height: '200px', objectFit: "cover", width: '100%' }} />}
+              className="testimonial-card"              hoverable
+              cover={<img classname="cardImage" alt="Unlimited Features" src={unlimited}  />}
             >
-              <Meta title="Easy to Customize" />
+              <Meta className="card-title" title="Unlimited Features" />
             </Card>
           </Col>
           <Col md={8} lg={7} xl={8}>
             <Card
-              hoverable
-              cover={<img alt="Unlimited Features" src={unlimited} style={{ height: '200px', objectFit: "cover", width: '100%' }} />}
+              className="testimonial-card" 
+               hoverable
+              cover={<img classname="cardImage" alt="Advanced Options" src={advanced}
+                 />}
             >
-              <Meta title="Unlimited Features" />
-            </Card>
-          </Col>
-          <Col md={8} lg={7} xl={8}>
-            <Card
-              hoverable
-              cover={<img alt="Advanced Options" src={advanced}
-                style={{ height: '200px', objectFit: "cover", width: '100%' }} />}
-            >
-              <Meta title="Advanced Options" />
+              <Meta className="card-title" title="Advanced Options" />
             </Card>
           </Col>
         </Row>

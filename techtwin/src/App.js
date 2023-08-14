@@ -13,7 +13,9 @@ const { Header } = Layout;
 const App = () => {
 
   return (
-    <>
+
+
+    <div className='main-container'>
       <Header>
         <Nav />
       </Header>
@@ -23,7 +25,7 @@ const App = () => {
          <Faq />
          <Contact />
          <Footer /> 
-    </>
+    </div>
   );
 }
 

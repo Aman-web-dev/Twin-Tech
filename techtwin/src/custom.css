@@ -3,10 +3,21 @@ header
 ------ 
 */
 
+
+*{
+   margin-right: 0;
+}
+
 body{
-   overflow-x: scroll;
+   overflow-x: hidden;
    width: 100vw;
    
+}
+
+.main-container{
+
+   overflow-x: hidden;
+   padding: auto;
 }
 .nav {
    display: flex;
@@ -95,12 +106,14 @@ body{
  }
 
  .hero{
-
    overflow: hidden;
    width: 100vw;
  }
+  
 
  .ant-carousel{
+   overflow-x: hidden;
+   margin: auto;
    width: 100%;
  }
 
@@ -126,10 +139,13 @@ body{
 
 .ant-carousel .hero-item h2 {
    font-weight: 700;
+   margin: 20px;
+
 }
 
 .ant-carousel .hero-item p {
    width: 450px;
+   font-weight: 600;
 }
 
 .ant-carousel .hero-item-two h2 {
@@ -159,6 +175,11 @@ body{
 
    body{
       overflow-x:hidden;
+   }
+   .ant-carousel .hero-item p {
+      width: 0px;
+      font-weight: 0;
+      margin: 0px;
    }
 
 
@@ -192,6 +213,14 @@ body{
    body{
       overflow-x:hidden;
    }
+
+   .ant-carousel .hero-item p {
+      width: 0px;
+      font-weight: 10;
+      margin: 0px;
+   }
+
+  
 }
 
 /* ABOUT STYLING */
@@ -214,15 +243,32 @@ body{
 /* FEATURES STYLING */
 .features {
    overflow: hidden;
-   width: 98vw;
+   width: 100vw;
    margin-top: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   padding: auto;
 }
 
 .features-body-cards {
-   margin: auto;
    margin-top: 30px;
+   width: 90%;
+   
+}
+
+
+.testimonial-card{
+   height: 35vh;
    width: 100%;
 }
+
+.cardImage{
+   height: 100%;
+   width: 100%;
+}
+
 
 /* HOW IT WORKS STYLING */
 .hiw {
