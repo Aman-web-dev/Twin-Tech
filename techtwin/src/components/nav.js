@@ -40,7 +40,7 @@ function Nav() {
           </Button>
           <Drawer
             placement="right"
-            closable={false}
+            closable={true}
             onClose={onClose}
             open={visible}
           >
