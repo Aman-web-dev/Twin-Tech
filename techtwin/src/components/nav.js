@@ -29,7 +29,7 @@ function Nav() {
           <Anchor affix={false} defaultSelectedKeys={['home']} targetOffset={64}>
             <Link href="#home" title="Home" />
             <Link href="#about" title="About" />
-            <Link href="#features" title="Features" />
+            <Link href="#features" title="Testimonials" />
             <Link href="#faq" title="FAQ" />
             <Link href="#contact" title="Contact" />
           </Anchor>
@@ -47,10 +47,8 @@ function Nav() {
             <Anchor affix={false} defaultSelectedKeys={['home']} targetOffset={64}>
               <Link href="#home" title="Home" />
               <Link href="#about" title="About" />
-              <Link href="#features" title="Features" />
-              <Link href="#hiw" title="How it works" />
+              <Link href="#features" title="Testimonials" />
               <Link href="#faq" title="FAQ" />
-              <Link href="#pricing" title="Pricing" />
               <Link href="#contact" title="Contact" />
             </Anchor>
           </Drawer>

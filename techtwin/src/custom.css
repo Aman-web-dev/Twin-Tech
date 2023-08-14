@@ -2,6 +2,7 @@
 header
 ------ 
 */
+
 body{
    overflow-x: hidden;
 }
@@ -115,9 +116,23 @@ body{
       display: none;
    }
 
+   body{
+      overflow-x:hidden;
+   }
+
    .desktop-nav {
       display: block;
    }
+}
+
+@media (max-width: 600px) {
+
+
+   body{
+      overflow-x:hidden;
+   }
+
+
 }
 
 @media (max-width: 999px) {
@@ -143,6 +158,10 @@ body{
 @media (max-width: 490px) {
    .ant-carousel .hero-item p {
       width: 95%;
+   }
+
+   body{
+      overflow-x:hidden;
    }
 }
 
@@ -229,7 +248,7 @@ body{
 }
 
 .faq-footer .fa {
-   margin-right: 6px;
+   margin-right: 2px;
 }
 
 /* PRICING STYLING */
@@ -326,3 +345,4 @@ body{
    width: 2.5rem;
    height: 2.5rem;
 }
+

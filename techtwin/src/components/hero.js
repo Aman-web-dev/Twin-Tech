@@ -7,17 +7,14 @@ function Hero() {
       <Carousel dotPosition="bottom" autoplay>
         <div className="hero-item hero-item-one">
           <h2>Web Applications For All Level Of Works</h2>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis distinctio quam illo omnis, expedita labore molestiae, tempore reprehenderit consequatur culpa inventore in itaque tempora nesciunt eveniet veniam voluptate? Ipsam adipisci doloribus laborum recusandae impedit similique? Alias vitae facere dolore quidem.</p>
-          <Space>
-            <Button type="primary" size="large"> Learn More </Button>
-            <Button type="ghost" size="large">
-              <i className="fa fa-desktop" aria-hidden="true"></i>
-              Watch a Demo
-              </Button>
-          </Space>
+          <p>Twin Tech specializes in crafting dynamic websites tailored to the unique needs of small businesses and individuals, enabling them to establish a compelling online presence and reach their target audience effectively.</p>
+        
         </div>
         <div className="hero-item hero-item-two">
-          <h2>  </h2>
+          <h2>
+            
+
+              </h2>
           <p>
             
             </p>

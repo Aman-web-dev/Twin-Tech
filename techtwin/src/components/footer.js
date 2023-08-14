@@ -1,5 +1,5 @@
 import React from 'react';
-import { FloatButton } from 'antd';
+import { BackTop } from 'antd';
 
 const style = {
   height: 40,
@@ -16,28 +16,27 @@ function Footer() {
   return (
     <section className="footer" id="footer">
       <div className="footer-links text-center">
-        <a href="#">
-          <i className="fa fa-facebook" aria-hidden="true"></i>
+        <a href="https://www.linkedin.com/in/aman-kumar-a6b374288/" target="_blank">
+          <i className="fa fa-linkedin" aria-hidden="true"></i>
         </a>
-        <a href="#">
-          <i className="fa fa-twitter" aria-hidden="true"></i>
+        <a href="https://github.com/tech-twin" target="_blank">
+          <i className="fa fa-github" aria-hidden="true"></i>
         </a>
-        <a href="#">
+        <a href="#" target="_blank">
           <i className="fa fa-instagram" aria-hidden="true"></i>
         </a>
-        <a href="#">
+        <a href="https://wa.me/918810217208" target="_blank">
           <i className="fa fa-whatsapp" aria-hidden="true"></i>
         </a>
       </div>
       <div className="footer-backtop">
-        <FloatButton.BackTop>
+        <BackTop>
           <div style={style}>
             <i className="fa fa-arrow-up" aria-hidden="true"></i>
           </div>
-        </FloatButton.BackTop>
+        </BackTop>
       </div>
     </section>
   )
 }
-
 export default Footer;
