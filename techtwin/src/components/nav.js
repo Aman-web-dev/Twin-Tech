@@ -45,11 +45,11 @@ function Nav() {
             open={visible}
           >
             <Anchor affix={false} defaultSelectedKeys={['home']} targetOffset={64}>
-              <Link href="#home" title="Home" />
-              <Link href="#about" title="About" />
-              <Link href="#features" title="Testimonials" />
-              <Link href="#faq" title="FAQ" />
-              <Link href="#contact" title="Contact" />
+              <Link href="#home" title="Home" onClick={onClose}/>
+              <Link href="#about" title="About" onClick={onClose}/>
+              <Link href="#features" title="Testimonials" onClick={onClose}/>
+              <Link href="#faq" title="FAQ" onClick={onClose}/>
+              <Link href="#contact" title="Contact" onClick={onClose}/>
             </Anchor>
           </Drawer>
         </div>
