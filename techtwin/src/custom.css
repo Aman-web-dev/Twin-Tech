@@ -4,7 +4,9 @@ header
 */
 
 body{
-   overflow-x: hidden;
+   overflow-x: scroll;
+   width: 100vw;
+   
 }
 .nav {
    display: flex;
@@ -65,12 +67,42 @@ body{
 }
 
 .ant-carousel .hero-item {
-   height: 600px;
+   overflow: hidden;
+   width: 90vw;
+   height: 70vh;
+
    display: flex !important;
    justify-content: center;
    flex-direction: column;
-   padding: 10px 20px;
+   /* padding: 10px 20px; */
 }
+
+@media (max-width: 768px) {
+   .ant-carousel .hero-item {
+     height: 30vh;
+     width: 90vw;
+   
+     display: flex !important;
+     justify-content: center;
+     flex-direction: column;
+     padding: 10px 20px;
+   }
+
+   .ant-carousel p{
+      height: 0;
+      width: 0;
+   }
+ }
+
+ .hero{
+
+   overflow: hidden;
+   width: 100vw;
+ }
+
+ .ant-carousel{
+   width: 100%;
+ }
 
 .ant-carousel .fa {
    padding-right: 5px;
@@ -84,11 +116,8 @@ body{
 }
 
 .ant-carousel .hero-item-two {
-   background-image: linear-gradient(
-         to left,
-         rgba(0, 0, 0, 0.4),
-         rgba(0, 0, 0, 0.4)
-      ),
+   width: 100%;
+   background-image:
       url("./components/images/bg-works.jpg");
    background-position: top bottom;
    background-repeat: no-repeat;
@@ -166,17 +195,14 @@ body{
 }
 
 /* ABOUT STYLING */
-.about {
-   padding: 10px;
-   width: 100%;
-   margin-top: 30px;
-}
+
 
 .about-body {
    margin-top: 30px;
 }
 
 .about-body-cards {
+   width: 98vw;
    margin-top: 50px;
 }
 
@@ -187,15 +213,15 @@ body{
 
 /* FEATURES STYLING */
 .features {
-   padding: 10px;
-   width: 100%;
+   overflow: hidden;
+   width: 98vw;
    margin-top: 30px;
 }
 
 .features-body-cards {
    margin: auto;
    margin-top: 30px;
-   width: 95%;
+   width: 100%;
 }
 
 /* HOW IT WORKS STYLING */
@@ -230,8 +256,7 @@ body{
 
 /* FAQ STYLING */
 .faq {
-   padding: 10px;
-   width: 100%;
+   width: 98vw;
    margin-top: 30px;
 }
 
@@ -294,8 +319,7 @@ body{
 
 /* CONTACT STYLING */
 .contact {
-   padding: 10px;
-   width: 100%;
+   width: 98vw;
    margin-top: 30px;
 }
 

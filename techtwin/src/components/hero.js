@@ -7,6 +7,8 @@ function Hero() {
       <Carousel dotPosition="bottom" autoplay>
         <div className="hero-item hero-item-one">
           <h2>Web Applications For All Level Of Works</h2>
+
+          
           <p>Twin Tech specializes in crafting dynamic websites tailored to the unique needs of small businesses and individuals, enabling them to establish a compelling online presence and reach their target audience effectively.</p>
         
         </div>
@@ -16,8 +18,7 @@ function Hero() {
 
               </h2>
           <p>
-            
-            </p>
+                        </p>
         </div>
       </Carousel>
     </section>
